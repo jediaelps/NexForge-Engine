@@ -1,0 +1,21 @@
+{
+  "title": "NexForge Engine",
+  "width": 960,
+  "height": 540,
+  "fps": 60,
+  "start_level": 0,
+  "fullscreen": false,
+  "player_lives": 3,
+
+  "sounds": {
+  "collect": "assets/sounds/collect.WAV",
+  "hit": "assets/sounds/hit.WAV",
+  "victory": "assets/sounds/winner.WAV",
+  "game_over": "assets/sounds/game_over.WAV"
+  },
+
+  "levels": [
+    "levels/level_1.json",
+    "levels/level_2.json"
+  ]
+}
