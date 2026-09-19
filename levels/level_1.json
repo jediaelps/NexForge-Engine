@@ -1,112 +1,281 @@
 {
-  "world": {
-    "width": 1900,
-    "height": 1200,
-    "background_color": [25, 40, 50],
-    "background_image": null,
-    "music": null
-  },
-
-  "player": {
-    "x": 100,
-    "y": 100,
-    "spawn_x": 100,
-    "spawn_y": 100,
-    "width": 50,
-    "height": 50,
-    "sprite_path": null
-  },
-
-  "blocks": [
-    { "x": 240, "y": 160, "width": 360, "height": 60, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 760, "y": 100, "width": 80, "height": 300, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 980, "y": 260, "width": 320, "height": 60, "color": [120, 120, 140], "sprite_path": null },
-
-    { "x": 280, "y": 480, "width": 420, "height": 70, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 860, "y": 500, "width": 90, "height": 330, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 1120, "y": 640, "width": 360, "height": 70, "color": [120, 120, 140], "sprite_path": null },
-
-    { "x": 230, "y": 850, "width": 500, "height": 70, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 920, "y": 960, "width": 350, "height": 70, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 1450, "y": 850, "width": 80, "height": 250, "color": [120, 120, 140], "sprite_path": null },
-
-    { "x": 1550, "y": 260, "width": 70, "height": 360, "color": [120, 120, 140], "sprite_path": null },
-    { "x": 1580, "y": 700, "width": 240, "height": 60, "color": [120, 120, 140], "sprite_path": null }
-  ],
-
-  "coins": [
-    { "x": 320, "y": 100, "sprite_path": null },
-    { "x": 650, "y": 420, "sprite_path": null },
-    { "x": 1040, "y": 190, "sprite_path": null },
-    { "x": 1240, "y": 570, "sprite_path": null },
-    { "x": 500, "y": 780, "sprite_path": null },
-    { "x": 1020, "y": 900, "sprite_path": null },
-    { "x": 1650, "y": 640, "sprite_path": null }
-  ],
-
-  "keys": [
-    {
-      "x": 1660,
-      "y": 980,
-      "width": 35,
-      "height": 35,
-      "sprite_path": null
-    }
-  ],
-
-  "checkpoints": [
-    {
-      "x": 900,
-      "y": 420,
-      "width": 45,
-      "height": 60,
-      "sprite_path": null
-    }
-  ],
-
-  "doors": [
-    {
-      "x": 1720,
-      "y": 180,
-      "width": 60,
-      "height": 80,
-      "sprite_path": null
-    }
-  ],
-
-  "enemies": [
-    {
-      "x": 620,
-      "y": 300,
-      "width": 50,
-      "height": 50,
-      "sprite_path": null,
-      "patrol_axis": "horizontal"
+    "world": {
+        "width": 1900,
+        "height": 1200,
+        "background_color": [
+            25,
+            40,
+            50
+        ],
+        "background_image": null,
+        "music": null
     },
-    {
-      "x": 1180,
-      "y": 760,
-      "width": 50,
-      "height": 50,
-      "sprite_path": null,
-      "patrol_axis": "vertical"
+    "player": {
+        "x": 100,
+        "y": 100,
+        "spawn_x": 100,
+        "spawn_y": 100,
+        "width": 50,
+        "height": 50,
+        "sprite_path": null
     },
-    {
-      "x": 1660,
-      "y": 420,
-      "width": 50,
-      "height": 50,
-      "sprite_path": null,
-      "patrol_axis": "vertical"
-    }
-  ],
-  "powerups": [
-  {
-    "x": 350,
-    "y": 350,
-    "width": 35,
-    "height": 35,
-    "sprite_path": null
-  }
-  ]
+    "blocks": [
+        {
+            "x": 240,
+            "y": 160,
+            "width": 360,
+            "height": 60,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 747,
+            "y": 157,
+            "width": 75,
+            "height": 763,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 980,
+            "y": 260,
+            "width": 320,
+            "height": 60,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 305,
+            "y": 480,
+            "width": 444,
+            "height": 70,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 795,
+            "y": 906,
+            "width": 129,
+            "height": 124,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 1010,
+            "y": 640,
+            "width": 470,
+            "height": 65,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 230,
+            "y": 850,
+            "width": 517,
+            "height": 70,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 920,
+            "y": 960,
+            "width": 350,
+            "height": 70,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 1450,
+            "y": 850,
+            "width": 80,
+            "height": 250,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 1550,
+            "y": 260,
+            "width": 70,
+            "height": 360,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 1592,
+            "y": 738,
+            "width": 240,
+            "height": 60,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        },
+        {
+            "x": 225,
+            "y": 0,
+            "width": 52,
+            "height": 220,
+            "color": [
+                120,
+                120,
+                140
+            ],
+            "sprite_path": null
+        }
+    ],
+    "coins": [
+        {
+            "x": 320,
+            "y": 100,
+            "sprite_path": null
+        },
+        {
+            "x": 650,
+            "y": 420,
+            "sprite_path": null
+        },
+        {
+            "x": 1109,
+            "y": 149,
+            "sprite_path": null
+        },
+        {
+            "x": 1240,
+            "y": 570,
+            "sprite_path": null
+        },
+        {
+            "x": 500,
+            "y": 780,
+            "sprite_path": null
+        },
+        {
+            "x": 1076,
+            "y": 872,
+            "sprite_path": null
+        },
+        {
+            "x": 1650,
+            "y": 640,
+            "sprite_path": null
+        },
+        {
+            "x": 1089,
+            "y": 1115,
+            "width": 35,
+            "height": 35,
+            "sprite_path": null
+        },
+        {
+            "x": 125,
+            "y": 497,
+            "width": 35,
+            "height": 35,
+            "sprite_path": null
+        }
+    ],
+    "keys": [
+        {
+            "x": 1660,
+            "y": 980,
+            "width": 35,
+            "height": 35,
+            "sprite_path": null
+        }
+    ],
+    "checkpoints": [
+        {
+            "x": 1171,
+            "y": 412,
+            "width": 45,
+            "height": 60,
+            "sprite_path": null
+        }
+    ],
+    "doors": [
+        {
+            "x": 1720,
+            "y": 180,
+            "width": 60,
+            "height": 80,
+            "sprite_path": null
+        }
+    ],
+    "enemies": [
+        {
+            "x": 620,
+            "y": 300,
+            "width": 50,
+            "height": 50,
+            "sprite_path": null,
+            "patrol_axis": "horizontal"
+        },
+        {
+            "x": 1180,
+            "y": 760,
+            "width": 50,
+            "height": 50,
+            "sprite_path": null,
+            "patrol_axis": "vertical"
+        },
+        {
+            "x": 1660,
+            "y": 420,
+            "width": 50,
+            "height": 50,
+            "sprite_path": null,
+            "patrol_axis": "vertical"
+        }
+    ],
+    "powerups": [
+        {
+            "x": 712,
+            "y": 964,
+            "width": 35,
+            "height": 35,
+            "sprite_path": null
+        }
+    ]
 }
